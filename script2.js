@@ -16,7 +16,7 @@ dayOfBirth.innerHTML = date2
 
 let sub = date1.getTime() - date2.getTime()
 let daysPassed = sub / 1000 / 60 / 60 / 24;
-howManyDays.innerHTML = daysPassed + "days"
+howManyDays.innerHTML = daysPassed + " days"
 
 
 /*function timePassed() {
@@ -27,3 +27,7 @@ howManyDays.innerHTML = daysPassed + "days"
 //let timePassed = Math.abs(date1 - date2);
 
 //howManyDays.innerHTML = (Number(date1) - Number(date2)) + " days"
+
+/*
+Write a function to find how many days have passed since any point in time (after 1970).
+*/
